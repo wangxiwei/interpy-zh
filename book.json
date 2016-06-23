@@ -1,6 +1,33 @@
 {
-    "plugins": [
-        ""
-    ],
-    "pluginsConfig": {}
+  "title": "css3-tutorial",
+  "description": "css3 学习入门教程",
+  "language": [
+    "zh-cn",
+    "en"
+  ],
+  "links" : {
+    "sidebar" : {
+        "首页" : "http://www.tester360.cn"
+    }
+},
+  "plugins": [
+    "-search",
+    "-sharing",
+    "-livereload",
+    "-fontsettings",
+    "baidu",
+    "sitemap",
+    "disqus"
+  ],
+  "pluginsConfig": {
+    "baidu": {
+      "token": "7d789811683659f2ce2723c13b6f88ef"
+    },
+    "sitemap": {
+      "hostname": "http://selenium.tester360.cn/"
+    },
+    "disqus": {
+            "shortName": "wwwtester360cn"
+        }
+  }
 }
